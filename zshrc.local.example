@@ -1,0 +1,9 @@
+# Copy to ~/.zshrc.local (not tracked by git)
+#
+#   cp zshrc.local.example ~/.zshrc.local
+#
+# Move secrets and machine-specific config here from your old ~/.zshrc.
+
+# bindkey -e
+# . /opt/homebrew/opt/asdf/libexec/asdf.sh
+# . /opt/homebrew/etc/profile.d/z.sh

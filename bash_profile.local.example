@@ -1,0 +1,8 @@
+# Copy to ~/.bash_profile.local (not tracked by git)
+#
+#   cp bash_profile.local.example ~/.bash_profile.local
+#
+# Move secrets and machine-specific config here from your old ~/.bash_profile.
+
+# git config and macOS defaults are in git-config.sh / macos-defaults.sh
+# . /opt/homebrew/opt/asdf/libexec/asdf.sh
