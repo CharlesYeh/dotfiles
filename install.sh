@@ -13,6 +13,8 @@ link() {
 link "$DOTFILES_DIR/bash_profile" "$HOME/.bash_profile"
 link "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
 
+echo "source ~/.bash_profile" >> "$HOME/.bashrc"
+
 if [[ ! -f "$HOME/.bash_profile.local" ]]; then
   echo "tip: cp $DOTFILES_DIR/bash_profile.local.example ~/.bash_profile.local"
 fi
